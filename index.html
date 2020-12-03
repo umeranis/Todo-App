@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo Application</title>
+    <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
+    <script src="https://kit.fontawesome.com/a81368914c.js"></script></head>
+    
+<body>
+    <div class="inputDiv">
+        <h1 class="title">TODO LIST</h1>
+        <input  class="input" placeholder="Enter todo" type="text" id="todo-item">
+        <button class="edit" onclick="addTodo()">Add Todo</button>
+        <button class="remove" onclick="deleteAll()">Delete All</button>
+    </div>
+
+    <div class="container">
+        <ul id="list">
+          
+        </ul>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
